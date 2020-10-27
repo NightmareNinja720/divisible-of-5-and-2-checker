@@ -1,14 +1,14 @@
 t=[]
 p=[]
-r=int(input("enter no. of numbers in tuple:"))
-for i in range(r):
-    x=int(input("enter no."))
+k=int(input("enter number of numbers in tuple:"))
+for i in range(k):
+    x=int(input("enter number"))
     t.append(x)
-for i in range(r):
+for i in range(k):
     a=t[i]%10
     if a==0:
         p.append(t[i])
 t=tuple(t)
 print("tuple =",t)
 p=tuple(p)
-print("divisible by 5 and 2 =",p)
+print("Numbers divisible by 5 and 2 =",p)
